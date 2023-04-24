@@ -1,0 +1,129 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.container{
+    padding: 35px;
+    background-color:   white;
+    display: grid;
+    grid-template-columns: 20% 80%;
+    grid-template-rows: 100px 830px;    
+}
+
+.a1{
+background-color: black;
+color: white;
+display: flex;
+font-family: 'Poppins', sans-serif;
+justify-content: center;
+align-items: center;
+font-size: 30px; font-family: 'Noticia Text', serif;
+}
+
+.a2{
+    background-color: black;
+    opacity: 0.6;
+    display: flex;s
+    gap: 10px;
+    
+}
+
+.b1{
+    
+    background-color: orange;
+    display: grid;
+    grid-template-rows:  10% 10% 10% 10% 10% 10%;
+}
+.tools{    
+    border-bottom: 1px solid white;  
+    color: white;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    font-family: 'Noticia Text', serif;
+}
+.b2{
+    font-family: 'Noticia Text', serif;
+    display: flex;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: white;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 28px 100px 150px 250px 250px 28px;
+
+}
+.box{    
+    margin: 10px;   
+
+}
+.cj1{    
+    grid-column: 1/ span 4;
+    font-family: 'Noticia Text', serif;
+}
+.cj2{
+    border: 4px solid black;
+    grid-column: 1/ span 4;
+}
+
+.cj3{
+    padding: 4px;
+    text-align: center;
+    border: 4px solid black;
+    grid-column: 1;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-family: 'Noticia Text', serif;
+
+}
+.cj4{
+    text-align: center;
+    border: 4px solid black;
+    grid-column: 2;
+    font-size: 30px;
+    font-family: 'Noticia Text', serif;
+    justify-items: center;
+    align-items: center;
+}
+.cj5{
+    text-align: center;
+    text-align: center;
+    border: 4px solid black;
+    grid-column: 3;
+    font-size: 30px;
+    font-family: 'Noticia Text', serif;
+}
+.cj6{
+    text-align: center;
+    border: 4px solid black;
+    grid-column: 4;
+    font-size: 30px;
+    font-family: 'Noticia Text', serif;
+}
+.cj7{
+    border: 4px solid black;
+    grid-column: 1/ span 2;
+}
+.cj8{
+    border: 4px solid black;
+    grid-column: 3/ span 2;
+}
+.cj9{
+    border: 4px solid black;
+    grid-column: 1/ span 3;
+}
+.cj10{
+    border: 4px solid black;
+    grid-column: 4;
+}
+.cj11{
+    grid-column: 1 / span 4;    ;
+    font-family: 'Noticia Text', serif;
+}
+
+i{
+    margin-left: 5px;
+    font-size: 30px; font-family: 'Noticia Text', serif;
+}
