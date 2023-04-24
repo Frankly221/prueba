@@ -1,81 +1,49 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
+    <title>Examen LP</title>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="./estilos.css">
 </head>
 <body>
-
-    <div class="container">
-        <div class="a1">                        
-                <i class="fa-solid fa-gear"></i>
-                &nbspSISTEMAS
-               
-                
-        </div>
-        <div class="a2">
-                        >
-                <div class="icon">
-                    <i class="fa-solid fa-user"></i>
-                </div>
-                <div class="icon"></div>
-                <div class="icon"></div>
-                <div class="icon"></div>
-            
-        </div>
-        
-
-        <div class="b1">
-            <div class="tools">
-                <i class="fa-solid fa-gauge"></i>
-                &nbspDashboard
-            </div>
-            <div class="tools">
-                <i class="fa-solid fa-tv"></i>
-                &nbspElements
-            </div>
-            <div class="tools">
-                <i class="fa-solid fa-table-cells"></i>
-                &nbspTabs & Paneles
-            </div>
-            <div class="tools">
-                <i class="fa-solid fa-block-quote"></i>             
-                &nbspResponsive Tables
-            </div>
-            <div class="tools">
-                <i class="fa-brands fa-wpforms"></i>
-                &nbspForm
-            </div>
-            <div class="tools"> 
-                <i class="fa-solid fa-file"></i>
-                &nbspEmpty page
-            </div>
-        </div>
-
-        <div class="b2">
-
-            <div class="box cj1">Dashboard</div>
-
-            <div class="box cj2"></div>
-
-            <div class="box cj3">Visitas Diarias</div>
-            <div class="box cj4">Ventas</div>
-            <div class="box cj5">Comentarios</div>
-            <div class="box cj6">Visitas</div>
-
-            <div class="box cj7"></div>
-            <div class="box cj8"></div>
-
-            <div class="box cj9"></div>
-            <div class="box cj10"></div>
-
-            <div class="box cj11">2021, Ingenieria de sistemas UPEU </div>
-
-        </div>
+    <div class="div-titulo">
+        <h1>Lista de Post</h1>
     </div>
+    
+    <div class="contenedor">
 
+        <div class="div-formulario">
+            
+
+            <form action="#" id="formulario">
+                <input type="text" id="nombre" placeholder="Titulo">
+                <input type="text" id="puesto" placeholder="Descripcion">
+                <button type="submit" id="btnAgregar">Agregar</button>
+            </form>
+        </div>
+
+        <div class="div-listado">
+          
+            
+            <div class="div-empleados">
+                
+            </div>
+        </div>
+
+    </div>
+    <table>
+        <thead>
+          <tr>
+            <th>Nombre</th>
+            <th>Puesto</th>
+            <th>Acciones</th>
+          </tr>
+        </thead>
+        <tbody class="div-empleados">
+        </tbody>
+      </table>
+    <script src="./app.js"></script>
 </body>
 </html>

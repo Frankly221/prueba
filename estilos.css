@@ -1,129 +1,250 @@
-*{
-    margin: 0px;
-    padding: 0px;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-.container{
-    padding: 35px;
-    background-color:   white;
-    display: grid;
-    grid-template-columns: 20% 80%;
-    grid-template-rows: 100px 830px;    
+
+body {
+    background-color:  #FFFFFF;
+}
+.container {
+  margin-top: 30px;
 }
 
-.a1{
-background-color: black;
-color: white;
-display: flex;
-font-family: 'Poppins', sans-serif;
-justify-content: center;
-align-items: center;
-font-size: 30px; font-family: 'Noticia Text', serif;
+.div-empleados {
+  margin-bottom: 20px;
 }
 
-.a2{
-    background-color: black;
-    opacity: 0.6;
-    display: flex;s
-    gap: 10px;
-    
+.card {
+  height: 100%;
 }
 
-.b1{
-    
-    background-color: orange;
-    display: grid;
-    grid-template-rows:  10% 10% 10% 10% 10% 10%;
+.card-title {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
 }
-.tools{    
-    border-bottom: 1px solid white;  
-    color: white;
+
+.card-text {
+  font-size: 1.2rem;
+}
+
+
+.div-titulo {
+    position: relative;
+    left: 600px;
+    width: 50%;
+    height: 100px;
     display: flex;
-    justify-content: left;
-    align-items: center;
-    font-family: 'Noticia Text', serif;
-}
-.b2{
-    font-family: 'Noticia Text', serif;
-    display: flex;
-    margin-left: 10px;
-    margin-right: 10px;
-    background-color: white;
-    display: grid;
-    grid-template-columns: 25% 25% 25% 25%;
-    grid-template-rows: 28px 100px 150px 250px 250px 28px;
-
-}
-.box{    
-    margin: 10px;   
-
-}
-.cj1{    
-    grid-column: 1/ span 4;
-    font-family: 'Noticia Text', serif;
-}
-.cj2{
-    border: 4px solid black;
-    grid-column: 1/ span 4;
-}
-
-.cj3{
-    padding: 4px;
-    text-align: center;
-    border: 4px solid black;
-    grid-column: 1;
     justify-content: center;
     align-items: center;
-    font-size: 30px;
-    font-family: 'Noticia Text', serif;
-
+    color: rgb(76, 233, 233);
+    border-bottom: 2px skyblue solid;
 }
-.cj4{
-    text-align: center;
-    border: 4px solid black;
-    grid-column: 2;
-    font-size: 30px;
-    font-family: 'Noticia Text', serif;
-    justify-items: center;
+
+.div-titulo h1 {
+    font-weight: 300;
+}
+#puesto{
+    height: 150px;
+    padding-bottom: 120px;
+}
+
+.contenedor {
+    width: 100%;
+    height: calc(100vh - 100px);
+    display: flex;
+    justify-content: center;
+}
+
+
+.contenedor .div-formulario {
+    width: 30%;
+    height: 100hv;
+    margin: 15px 15px;
+    background-color: rgb(135, 132, 132);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 10px 10px rgba(0, 0, 0, 0.3);
+}
+
+.contenedor .div-formulario h2 {
+    margin-top: 10px;
+    font-weight: 300;
+    font-size: 2em;
+    color: whitesmoke;
+}
+
+.contenedor .div-formulario form {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
 }
-.cj5{
-    text-align: center;
-    text-align: center;
-    border: 4px solid black;
-    grid-column: 3;
-    font-size: 30px;
-    font-family: 'Noticia Text', serif;
-}
-.cj6{
-    text-align: center;
-    border: 4px solid black;
-    grid-column: 4;
-    font-size: 30px;
-    font-family: 'Noticia Text', serif;
-}
-.cj7{
-    border: 4px solid black;
-    grid-column: 1/ span 2;
-}
-.cj8{
-    border: 4px solid black;
-    grid-column: 3/ span 2;
-}
-.cj9{
-    border: 4px solid black;
-    grid-column: 1/ span 3;
-}
-.cj10{
-    border: 4px solid black;
-    grid-column: 4;
-}
-.cj11{
-    grid-column: 1 / span 4;    ;
-    font-family: 'Noticia Text', serif;
+
+.contenedor .div-formulario form input,
+.contenedor .div-formulario form button {
+    width: 60%;
+    padding: 10px 10px;
+    margin: 10px 10px;
 }
 
-i{
-    margin-left: 5px;
-    font-size: 30px; font-family: 'Noticia Text', serif;
+
+.contenedor .div-listado {
+    width: 55%;
+    height: calc(100% - 50px);
+    margin: 15px 15px;
+    background-color: rgb(135, 132, 132);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 10px 10px rgba(0, 0, 0, 0.3); 
 }
+
+.contenedor .div-listado h2 {
+    margin-top: 10px;
+    font-weight: 300;
+    font-size: 2em;
+    color: whitesmoke;
+}
+
+.contenedor .div-listado .div-empleados {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 15px;
+    padding: 0 30px;
+}
+
+.contenedor .div-listado .div-empleados p {
+    margin: 10px 0;
+    font-size: 1em;
+    color: #ddd;
+}
+
+hr {
+    width: 100%;
+    height: 1px;
+    border: 2px solid black;
+}
+
+.btn{
+    padding: 5px 10px;
+    border: none;
+    margin: 0 5px;
+    color: white;
+    border-radius: 50px;
+    
+}
+
+.btn-editar {
+    margin-left: 300px;
+    background-color: green;
+}
+
+.btn-eliminar {
+   
+    background-color: red;
+}
+.tabla-empleados {
+  border-collapse: collapse;
+  margin: 20px 0;
+  width: 100%;
+}
+
+.tabla-empleados th,
+.tabla-empleados td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.tabla-empleados th {
+  background-color: #f2f2f2;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.tabla-empleados td {
+  font-size: 18px;
+}
+
+/* Estilos para los botones */
+.btn-accion {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.btn-editar {
+  background-color: #008CBA;
+}
+
+.btn-eliminar {
+  background-color: #f44336;
+}
+
+
+.tabla-empleados {
+    border-collapse: collapse;
+    margin: 20px 0;
+    width: 100%;
+  }
+  
+  .tabla-empleados th,
+  .tabla-empleados td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .tabla-empleados th {
+    background-color: skyblue;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .tabla-empleados td {
+    font-size: 18px;
+    background-color: white;
+  }
+  
+  /* Estilos para los botones */
+  .btn-accion {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .btn-editar {
+    background-color: #008CBA;
+  }
+  
+  .btn-eliminar {
+    background-color: #f44336;
+  }
+  
